@@ -1,0 +1,213 @@
+
+#nomb {
+
+    position: absolute;
+    font-size: 30px;
+    font-family: "Arial Black";
+    top: 5%;
+    left: 35%;
+
+}
+#fondo{
+    background-color: white;
+}
+#foto{
+    position: absolute;
+    width: 160px;
+    height: 190px;
+    top: 9%;
+    left: 65%;
+}
+#dir{
+    position: absolute;
+    font-size: 14px;
+    font-family: "Arial";
+    top: 18%;
+    left: 44%;
+}
+#codpos{
+    position: absolute;
+    font-size: 14px;
+    font-family: "Arial";
+    top: 18%;
+    left: 52%;
+}
+#ciud{
+    position: absolute;
+    font-size: 14px;
+    font-family: "Arial";
+    top: 18%;
+    left: 55%;
+}
+#tel{
+    position: absolute;
+    font-size: 14px;
+    font-family: "Arial";
+    top: 21%;
+    left: 58%;
+}
+#corr{
+    position: absolute;
+    font-size: 14px;
+    font-family: "Arial";
+    top: 24%;
+    left: 51%;
+}
+#objetivo{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-size: 25px;
+    font-style: inherit;
+    font-family: "Arial Black";
+}
+#caja1{
+    position:absolute;
+    width:60%;
+    height:30%;
+    background-color: white;
+    top: 60%;
+    left:20%;
+    border-radius:15px;
+    font-family: Arial;
+    font-size: 14px;
+
+}
+#formacade{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    font-size: 25px;
+    font-style: inherit;
+    font-family: "Arial Black";
+}
+#carr{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    font-size: 14px;
+    font-family: Arial;
+}
+#fecar{
+    position: absolute;
+    top: 80%;
+    left: 36.2%;
+    font-size: 14px;
+    font-family: Arial;
+}
+#ceEst{
+    position: absolute;
+    top: 83%;
+    left: 20%;
+    font-size: 14px;
+    font-family: Arial;
+}
+#lugEst{
+    position: absolute;
+    top: 86%;
+    left: 20%;
+    font-size: 14px;
+    font-family: Arial;
+}
+#paEst{
+    position: absolute;
+    top: 86%;
+    left: 24.2%;
+    font-size: 14px;
+    font-family: Arial;
+}
+#formaCom{
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    font-size: 25px;
+    font-style: inherit;
+    font-family: "Arial Black";
+}
+#fCom{
+    position:absolute;
+    width:60%;
+    height:5%;
+    background-color: white;
+    top: 99%;
+    left:20%;
+    border-radius:15px;
+    font-family: Arial;
+    font-size: 14px;
+}
+#exp{
+    position: absolute;
+    top: 114%;
+    left: 20%;
+    font-size: 25px;
+    font-style: inherit;
+    font-family: "Arial Black";
+}
+#expPro{
+    position:absolute;
+    width:60%;
+    height:10%;
+    background-color: white;
+    top: 123%;
+    left:20%;
+    border-radius:15px;
+    font-family: Arial;
+    font-size: 14px;
+}
+#infor{
+    position: absolute;
+    top: 134%;
+    left: 20%;
+    font-size: 25px;
+    font-style: inherit;
+    font-family: "Arial Black";
+}
+#informatic{
+    position:absolute;
+    width:60%;
+    height:10%;
+    background-color: white;
+    top: 143%;
+    left:20%;
+    border-radius:15px;
+    font-family: Arial;
+    font-size: 14px;
+}
+#idio{
+    position: absolute;
+    top: 160%;
+    left: 20%;
+    font-size: 25px;
+    font-style: inherit;
+    font-family: "Arial Black";
+}
+#idioma{
+    position:absolute;
+    width:60%;
+    height:10%;
+    background-color: white;
+    top: 169%;
+    left:20%;
+    border-radius:15px;
+    font-family: Arial;
+    font-size: 14px;
+}
+#otro{
+    position: absolute;
+    top: 180%;
+    left: 20%;
+    font-size: 25px;
+    font-style: inherit;
+    font-family: "Arial Black";
+}
+#otros{
+    position:absolute;
+    width:60%;
+    height:10%;
+    background-color: white;
+    top: 190%;
+    left:20%;
+    border-radius:15px;
+    font-family: Arial;
+    font-size: 14px;
+}

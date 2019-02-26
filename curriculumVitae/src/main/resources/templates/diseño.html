@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Curriculum Vitae</title>
+    <link  href="/estilos.css" th:href="@{/css/estilos.css}" rel="stylesheet">
+</head>
+<body id="fondo">
+<h1 th:text="${per.nombre}" id="nomb"></h1>
+    <div th:text="${per.direccion}" id="dir"></div>
+    <div th:text="${per.cp}" id="codpos"></div>
+    <div th:text="${per.ciudad}" id="ciud"></div>
+    <div th:text="${per.telefono}" id="tel"></div>
+    <div th:text="${per.correo}" id="corr"></div>
+    <img th:src="@{${per.foto}}" id="foto"/>
+<p id="objetivo">Objetivo Profesional:</p>
+    <div th:text="${per.objetivo}" id="caja1"></div>
+<p id="formacade">Formación Académica:</p>
+
+    <div th:text="${per.carrera}" id="carr"></div>
+    <div th:text="${per.fechaCarrera}" id="fecar"></div>
+    <div th:text="${per.centroEstudios}" id="ceEst"></div>
+    <div th:text="${per.lugarStudios}" id="lugEst"></div>
+    <div th:text="${per.paisEstudios}" id="paEst"></div>
+<p id="formaCom">Formación Complementaria:</p>
+    <div id="fCom">
+        <tr th:each="formaComplementaria : ${per.formaComplementaria}">
+            <p th:text="${formaComplementaria}"></p>
+
+        </tr>
+    </div>
+<p id="exp">Experiencia Profesional</p>
+    <div id="expPro">
+        <tr th:each="expProfesional : ${per.expProfesional}">
+            <p th:text="${expProfesional}"></p>
+
+        </tr>
+    </div>
+<p id="infor">Informática</p>
+    <div id="informatic">
+        <tr th:each="informatica : ${per.informatica}">
+            <p th:text="${informatica}"></p>
+
+        </tr>
+    </div>
+<p id="idio">Idiomas</p>
+    <div id="idioma">
+        <tr th:each="idiomas : ${per.idiomas}">
+            <p th:text="${idiomas}"></p>
+
+        </tr>
+    </div>
+<p id="otro">Otros Datos de Interés</p>
+    <div th:text="${per.otros}" id="otros">
+    </div>
+</body>
+</html>
